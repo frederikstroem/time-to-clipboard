@@ -48,7 +48,7 @@ Be aware that you need an extra space when parsing a negative timezone eg. `--ti
 
 ## Quickstart
 ### Download latest stable version
-To download the latest version go to [realeses on GitHub](https://github.com/frederikstroem/time-to-clipboard/releases) and download the "Latest release".
+To download the latest version go to [realeses on GitHub](https://github.com/frederikstroem/time-to-clipboard/releases) and download the latest release.
 
 ### Install requirements
 Unpack the downloaded folder and open a terminal in the directory.
