@@ -30,6 +30,9 @@ elif timezone == "local":
     returnString = time.strftime(strftimeFormat, time.localtime())
 else:
     # If there is an offset, it gets tricky.
+    # Remove all spaces from timezone argument.
+    timezone = timezone.replace(" ", "")
+
     # Source: https://stackoverflow.com/a/46402186 (2019-04-03)
     currentTime = datetime.today()
     unformatedReturnString = None
