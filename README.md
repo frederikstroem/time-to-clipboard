@@ -5,7 +5,7 @@ It is possible to change the timezone and the output format. The output format i
 
 ## Table of Contents
 - [Arguments](#arguments)
-- [Example](#example)
+- [Examples](#examples)
 - [Quickstart](#quickstart)
   - [Download latest stable version](#download-latest-stable-version)
   - [Install requirements](#install-requirements)
@@ -25,7 +25,7 @@ optional arguments:
                        local time or a UTC offset eg. "+05:00" or just "+05".
 ```
 
-## Example
+## Examples
 ```
 $ python timeToClipboard.py
 ```
@@ -44,11 +44,19 @@ $ python timeToClipboard.py --format "%H:%M" --timezone " -05:00"
 ```
 > 23:19
 
-Be aware that you need an extra space when parsing a negative timezone eg. `--timezone " -08:30"`
+Be aware that you need an extra space when parsing a negative timezone eg. `--timezone " -08:30"`.
 
 ## Quickstart
 ### Download latest stable version
+To download the latest version go to [realeses on GitHub](https://github.com/frederikstroem/time-to-clipboard/releases) and download the "Latest release".
 
 ### Install requirements
+Unpack the downloaded folder and open a terminal in the directory.
+
+Next install the required pip packages using the `requirements.txt` file.
+```
+$ pip install -r requirements.txt
+```
 
 ### Use the command-line tool
+You should now be able to call the script just like in the [examples](#examples).
