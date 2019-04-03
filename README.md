@@ -38,6 +38,14 @@ $ python timeToClipboard.py --format "%H:%M" --timezone "+05:00"
 Will copy something like this to the clipboard:
 > 04:06
 
+Or for a negative timezone
+```
+$ python timeToClipboard.py --format "%H:%M" --timezone " -05:00"
+```
+> 23:19
+
+Be aware that you need an extra space when parsing a negative timezone eg. `--timezone " -08:30"`
+
 ## Quickstart
 ### Download latest stable version
 
